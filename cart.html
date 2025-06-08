@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мій магазин - Головна</title>
+    <title>Мій магазин - Кошик</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">    
 </head>
 <body>
     <header>
@@ -21,20 +22,23 @@
     </header>
 
     <main class="container">
-        <section class="hero">
-            <img src="images/hero.jpg" alt="Головне зображення" style="width:100%; max-height:400px; object-fit:cover;">
-            <div style="margin-top: 2rem;">
-                <h1>Ласкаво просимо до нашого магазину!</h1>
-                <p>Ми пропонуємо якісні товари за доступними цінами. Обирайте найкраще для себе!</p>
-                <a href="product.html" class="btn" style="margin-top: 1rem;">Перейти до товарів</a>
+        <h1 style="margin: 1rem 0;">Ваш кошик</h1>
+        
+        <div class="cart-container" id="cart-items">
+            <!-- Тут будуть товари з кошика -->
+            <div class="empty-cart">
+                <p>Ваш кошик порожній</p>
+                <a href="product.html" class="btn">Перейти до товарів</a>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 MyShop. Всі права захищені.</p>
+            <p>&copy; 2025 MyShop. Всі права захищені.</p>
         </div>
     </footer>
+
+    <script src="cart.js"></script>
 </body>
 </html>
