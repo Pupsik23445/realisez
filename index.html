@@ -3,37 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мій магазин - Головна</title>
-    <link rel="stylesheet" href="style.css">
+    <title>PicnicMarket - Головна</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="logo">MyShop</div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Головна</a></li>
-                    <li><a href="product.html">Товари</a></li>
-                    <li><a href="cart.html">Кошик</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Головна</a></li>
+                <li><a href="menu.html"><i class="fas fa-shopping-basket"></i> Каталог</a></li>
+                <li><a href="policy.html"><i class="fas fa-user-shield"></i> Політика</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <main class="container">
+    
+    <main>
         <section class="hero">
-            <img src="images/hero.jpg" alt="Головне зображення" style="width:100%; max-height:400px; object-fit:cover;">
-            <div style="margin-top: 2rem;">
-                <h1>Ласкаво просимо до нашого магазину!</h1>
-                <p>Ми пропонуємо якісні товари за доступними цінами. Обирайте найкраще для себе!</p>
-                <a href="product.html" class="btn" style="margin-top: 1rem;">Перейти до товарів</a>
+            <div class="hero-content">
+                <h1>Усе для ідеального пікніка! 🧺</h1>
+                <p>Товари для відпочинку на природі — зручно, доступно, якісно</p>
+                <a href="menu.html" class="cta-button">Переглянути каталог</a>
+            </div>
+        </section>
+        
+        <section class="advantages">
+            <div class="advantage-card">
+                <i class="fas fa-truck"></i>
+                <h3>Швидка доставка</h3>
+                <p>Доставляємо замовлення по всій Україні</p>
+            </div>
+            <div class="advantage-card">
+                <i class="fas fa-seedling"></i>
+                <h3>Еко-продукти</h3>
+                <p>Безпечні товари для природи та здоров'я</p>
+            </div>
+            <div class="advantage-card">
+                <i class="fas fa-campground"></i>
+                <h3>Широкий вибір</h3>
+                <p>Манґали, покривала, посуд, набори — все для пікніка</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2023 MyShop. Всі права захищені.</p>
+        <div class="footer-content">
+            <p>⏰ Години роботи: 09:00 - 20:00 щодня</p>
+            <p>© 2025 PicnicMarket. Всі права захищені</p>
         </div>
     </footer>
 </body>

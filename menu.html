@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicnicMarket - Каталог</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Головна</a></li>
+                <li><a href="menu.html"><i class="fas fa-shopping-basket"></i> Каталог</a></li>
+                <li><a href="policy.html"><i class="fas fa-user-shield"></i> Політика</a></li>
+                <li class="cart-icon"><a href="shoppingcart.html"><i class="fas fa-shopping-cart"></i> (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="menu-title">Каталог товарів для пікніка</h1>
+        
+        <div class="pizza-menu">
+            <!-- Товари для пікніка -->
+            <div class="pizza-card" data-id="1" data-name="Пікнік-набір" data-price="450">
+                <img src="https://ranger.ua/wp-content/uploads/2025/05/nabor-dlya-piknika-nabor-dlya-piknika-nv-4-533-remper-optom-v-ukraine.jpg" alt="Пікнік-набір">
+                <h3>Пікнік-набір 🧺</h3>
+                <p>Комплект: плед, посуд, кошик</p>
+                <span class="price">450 грн</span>
+                <button class="order-button">Додати в кошик</button>
+            </div>
+
+            <div class="pizza-card" data-id="2" data-name="Мангал переносний" data-price="699">
+                <img src="https://cdn.27.ua/sc--media--prod/default/04/b8/a8/04b8a823-3fd0-47c7-ab95-7895157c59c6.png" alt="Мангал">
+                <h3>Мангал переносний 🔥</h3>
+                <p>Зручний для транспортування, складний</p>
+                <span class="price">699 грн</span>
+                <button class="order-button">Додати в кошик</button>
+            </div>
+
+            <div class="pizza-card" data-id="3" data-name="Термос 1л" data-price="299">
+                <img src="https://kancmaster.com.ua/image/cache/catalog/import_files/b8/b8e906bd94d111ee8881f95c7bd34f8f_ae1aac5a94da11ee8881f95c7bd34f8f-800x800.jpg" alt="Термос">
+                <h3>Термос 1л</h3>
+                <p>Зберігає тепло до 12 годин</p>
+                <span class="price">299 грн</span>
+                <button class="order-button">Додати в кошик</button>
+            </div>
+
+            <div class="pizza-card" data-id="4" data-name="Пластиковий посуд" data-price="99">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWC3o94wiQi97j4SrQcyriu9cEZBgnwkixyQ&s" alt="Пластиковий посуд">
+                <h3>Пластиковий посуд (набір)</h3>
+                <p>Комплект на 4 особи: тарілки, виделки, стакани</p>
+                <span class="price">99 грн</span>
+                <button class="order-button">Додати в кошик</button>
+            </div>
+
+            <div class="pizza-card" data-id="5" data-name="Плед для пікніка" data-price="270">
+                <img src="https://butlers.ua/images/thumbs/10222853_kovdra-dl-pikniku.jpg" alt="Плед">
+                <h3>Плед водонепроникний</h3>
+                <p>Розмір 150x200 см, зручний у використанні</p>
+                <span class="price">270 грн</span>
+                <button class="order-button">Додати в кошик</button>
+            </div>
+
+            <div class="pizza-card" data-id="6" data-name="Гриль решітка" data-price="190">
+                <img src="https://images.prom.ua/4557709548_w640_h320_reshetka-dlya-grilya.jpg" alt="Гриль решітка">
+                <h3>Гриль решітка</h3>
+                <p>Для м'яса, риби та овочів</p>
+                <span class="price">190 грн</span>
+                <button class="order-button">Додати в кошик</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>⏰ Години роботи: 09:00 - 20:00 щодня</p>
+            <p>© 2025 PicnicMarket. Всі права захищені</p>
+        </div>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
